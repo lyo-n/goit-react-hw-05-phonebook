@@ -1,0 +1,13 @@
+.searchBlock{
+    padding-left: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(54, 54, 54);
+}
+.searchInpt{
+    /* font-size: 26px;
+    font-family: 'Times New Roman', Times, serif; */
+}

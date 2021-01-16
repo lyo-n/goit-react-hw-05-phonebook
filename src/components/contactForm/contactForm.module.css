@@ -1,0 +1,31 @@
+.form{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.formBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.label{
+    font-size: 20px;
+}
+.inpt{
+    margin-left: 5px;
+    width: 165px;
+    height: 18px;
+}
+.btn{
+    margin-top: 1px;
+    width: 140px;
+    height: 24px;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px solid  rgb(0, 0, 0);
+}
+.btn:hover{
+    background-color: grey;
+}

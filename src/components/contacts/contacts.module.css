@@ -1,0 +1,41 @@
+.list{
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.item{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color: red;
+}
+.enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+  
+.enterActive {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 250ms linear;
+}
+  
+.exit {
+    opacity: 1;
+    transform: translateX(0);
+}
+  
+.exitActive {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 250ms linear;
+}
+  
